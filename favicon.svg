@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .i { stroke: #33323d; }
+    .p { fill: #33323d; }
+    @media (prefers-color-scheme: dark) {
+      .i { stroke: #e8e6f0; }
+      .p { fill: #e8e6f0; }
+    }
+  </style>
+  <mask id="gap">
+    <rect width="64" height="64" fill="white"/>
+    <line x1="13" y1="51" x2="51" y2="13" stroke="black" stroke-width="13" stroke-linecap="round"/>
+  </mask>
+  <g mask="url(#gap)">
+    <path class="i" d="M5 32 C15.5 17.5 48.5 17.5 59 32 C48.5 46.5 15.5 46.5 5 32 Z" fill="none" stroke-width="4.5" stroke-linejoin="round"/>
+    <circle class="p" cx="32" cy="32" r="6.5"/>
+  </g>
+  <line class="i" x1="13" y1="51" x2="51" y2="13" stroke-width="4.5" stroke-linecap="round"/>
+</svg>
